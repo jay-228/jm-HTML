@@ -1,0 +1,29 @@
+                                                                                                          ASSIGNMENT-27/06/2023    
+
+
+1> Are the HTML tags and elements the same thing?
+ans:   No, HTML tags and elements are not the same thing.
+
+2> What are tags and attributes in HTML?
+ans:  tags:- HTML tags are keywords or code elements used in HTML to define the structure and content of a web page. 
+      attributes:- attributes in HTML are used to provide additional information or characteristics to HTML tags, which modifies their behavior or appearance.
+
+3> What are void elements in HTML? With Example.
+ans:  void elements are elements that cannot have content or child elements, Void elements are also commonly known as empty elements.
+      ex: <img src="example.jpg" alt="example image">
+
+4> What are HTML Entities? With Example.
+ans:  HTML entities are special characters or symbols that have reserved meanings in HTML and cannot be used directly in HTML markup.
+      ex: &nbspl;
+
+5> What are different types of lists in HTML? With Example.
+ans:  There are three different types of lists in HTML 1.unordered lists 2.ordered lists, and 3.definition lists.
+      ex:    1.unordered lists :-<ul>                     2.ordered lists:- <ol>                     3.definition lists:- <dl>
+                                     <li>Item 1</li>                            <li>Red</li>                                   <dd>HyperText Markup Language</dd>
+                                     <li>Item 2</li>                            <li>Green</li>                                  <dd>Cascading Style Sheets</dd>                      
+                                     <li>Item 3</li>                            <li>Blue</li>                              </dl>
+                                 </ul>                                       </ol>
+
+ 
+
+
