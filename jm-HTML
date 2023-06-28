@@ -24,6 +24,76 @@ ans:  There are three different types of lists in HTML 1.unordered lists 2.order
                                      <li>Item 3</li>                            <li>Blue</li>                              </dl>
                                  </ul>                                       </ol>
 
+6> What is the ‘class’ attribute in HTML? With Example
+ans: The 'class' attribute in HTML is used to specify one or more class names for an HTML element.
+     ex: <!DOCTYPE html>
+          <html>
+          <head>
+          	<title>Example of class attribute</title>
+          	<style>
+          		.red {
+          			color: red;
+          		}
+          	</style>
+          </head>
+          <body>
+          	<p class="red">This text is red.</p>
+          </body>
+          </html>
+
+7>  What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML elements? With Example
+ans:  id attribute is used to identify a unique element in a webpage, while the class attribute is used to group together multiple elements with similar characteristics or styles.
+      ex: id: <div id="header">This is the header section</div>
+          class: <p class="red">This text is only red.</p>
+
+8> What are the various formatting tags in HTML?
+ans: HTML provides various tags for formatting text. Some of the most commonly used formatting tags in HTML are <b>,<i>,<u>.
+
+9> How is Cell Padding different from Cell Spacing? With Example
+ans: The Cellpadding and Cellspacing HTML attributes are used to specify the space between cells and their borders in HTML tables.
+    ex: <table border="1" cellpadding="10" cellspacing="5">
+
+10> How can we club two or more rows or columns into a single row or column in an HTML table? With Example
+ans: To club two or more rows or columns into a single row or column in an HTML table, we can use the rowspan and colspan attributes.
+    ex: rowspan : <td rowspan="2">Row 1 - Cell 1</td>
+        colspan : <td colspan="2">Row 1 - Cell 2 and 3</td>
+
+11> What is the difference between a block-level element and an inline element
+ans: Block-level elements always start on a new line and take up the full width available on the screen and inline elements do not start on a new line and only take up as much width as needed to display their content.
+
+12> How to create a Hyperlink in HTML? With Example
+ans: To create a hyperlink in HTML, you can use the anchor tag <a> and set its href attribute to the URL or location you want to link to.
+     ex: <a href="https://www.example.com">Click here to visit Example.com</a>
+
+13> What is the use of an iframe tag? With Example.
+ans: The <iframe> tag in HTML is used to embed another HTML document within the current HTML document
+     ex: <iframe src="https://www.example.com"></iframe>
+
+14> What is the use of a span tag? Explain with example?
+ans: The <span> tag in HTML is used to group inline elements for styling purposes.
+    ex: <p>This is a <span class="highlight">highlighted</span> word.</p>
+
+15> How to insert a picture into a background image of a web page? With Example.
+ans: To insert an image into the background image of a webpage, you can use CSS to set the background-image property for the body element.
+
+16> How are active links different from normal links?
+ans: Active links and normal links differ in appearance based on their status. A normal link is a hyperlink that has not been visited or clicked yet and is usually displayed in blue color by default. 
+     An active link, on the other hand, is a hyperlink that is currently being clicked or visited.
+
+17> What are the different tags to separate sections of text?
+ans: There are several HTML tags that can be used to separate sections of text. Some of the commonly used tags include the <br> tag, which is used to separate lines of text, 
+       the <p> tag, which is used to separate paragraphs, and the <blockquote> tag, which is used to indent and separate long quotations. The <section> tag is also used to define sections
+     of a document, such as chapters, headers, footers, or other sections.
  
+18> What is SVG?
+ans: SVG stands for Scalable Vector Graphics . It is a file format used for rendering vector-based graphics on the web.
+
+19> What is difference between HTML and XHTML?
+ans: HTML is the standard markup language for creating web pages, while XHTML is a stricter and more standardized version of HTML.
+    Both HTML and XHTML include a wide range of features, such as support for multimedia, styling, and scripting.
+
+20> What are logical and physical tags in HTML?
+ans: In HTML, there are physical and logical tags that can be used to format and structure web pages. Physical tags are used to specify how specific characters are formatted or displayed using HTML tags.
+
 
 
